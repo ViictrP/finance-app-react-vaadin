@@ -1,3 +1,3 @@
-import Input from "./form/Input";
+import Input from './form/Input';
 
 export { Input };

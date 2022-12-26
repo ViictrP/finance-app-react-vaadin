@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vaadin/email-field": "^23.3.2",
+    "@vaadin/icon": "^23.3.2",
+    "@vaadin/icons": "^23.3.2",
+    "@vaadin/password-field": "^23.3.2",
     "@vaadin/text-field": "^23.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

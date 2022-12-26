@@ -1,8 +1,9 @@
-import '@vaadin/text-field';
-import { ChangeEvent, ReactNode, useCallback } from 'react';
+import '@vaadin/email-field';
 import InputProps from '../../lib/form/properties/InputProperties';
+import { ChangeEvent, useCallback } from 'react';
+import Icon from '../Icon';
 
-const Input = ({
+const InputEmail = ({
   label,
   placeholder,
   children,
@@ -23,21 +24,22 @@ const Input = ({
   );
 
   return (
-    <vaadin-text-field
+    <vaadin-email-field
       key={key}
       readonly={readonly}
       disabled={disabled}
       required={required}
       onInput={onInputHandler}
       label={label ?? ''}
-      placeholder={placeholder ?? ''}
+      placeholder={placeholder ?? 'username@example.com'}
       clear-button-visible={showClear}
-      pattern={pattern}
+      pattern="a@a.com"
       error-message={errorMessage}
     >
+      <Icon slot="prefix" icon="vaadin:at" />
       {children}
-    </vaadin-text-field>
+    </vaadin-email-field>
   );
 };
 
-export default Input;
+export default InputEmail;

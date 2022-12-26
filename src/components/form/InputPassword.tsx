@@ -1,14 +1,14 @@
-import '@vaadin/text-field';
-import { ChangeEvent, ReactNode, useCallback } from 'react';
+import '@vaadin/password-field';
+import { useCallback, ChangeEvent } from 'react';
 import InputProps from '../../lib/form/properties/InputProperties';
+import Icon from '../Icon';
 
-const Input = ({
+const InputPassword = ({
   label,
   placeholder,
   children,
   onChange,
   showClear,
-  pattern,
   errorMessage,
   readonly,
   disabled,
@@ -23,7 +23,7 @@ const Input = ({
   );
 
   return (
-    <vaadin-text-field
+    <vaadin-password-field
       key={key}
       readonly={readonly}
       disabled={disabled}
@@ -32,12 +32,12 @@ const Input = ({
       label={label ?? ''}
       placeholder={placeholder ?? ''}
       clear-button-visible={showClear}
-      pattern={pattern}
       error-message={errorMessage}
     >
+      <Icon slot="prefix" icon="vaadin:password" />
       {children}
-    </vaadin-text-field>
+    </vaadin-password-field>
   );
 };
 
-export default Input;
+export default InputPassword;
