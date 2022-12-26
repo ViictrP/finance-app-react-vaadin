@@ -1,8 +1,5 @@
 import './App.scss';
-import Button from './components/Button';
-import InputEmail from './components/form/InputEmail';
-import InputPassword from './components/form/InputPassword';
-import Icon from './components/Icon';
+import { Button, Icon, InputEmail, InputPassword } from './components';
 
 function App() {
   return (
