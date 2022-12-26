@@ -1,5 +1,5 @@
 import '@vaadin/text-field';
-import { ChangeEvent, ReactNode, useCallback } from 'react';
+import { ChangeEvent, useCallback } from 'react';
 import InputProps from '../../lib/form/properties/InputProperties';
 
 const Input = ({
