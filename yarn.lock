@@ -257,7 +257,7 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
-"@vaadin/button@~23.3.2":
+"@vaadin/button@^23.3.2", "@vaadin/button@~23.3.2":
   version "23.3.2"
   resolved "https://registry.yarnpkg.com/@vaadin/button/-/button-23.3.2.tgz#91b8aa6ed9790669f119291e908baf0ddb77755a"
   integrity sha512-uIAuMSvDzOtG0oqydwcWTR7RkjIN0OODyI7heZ3pt2NzGxM7xJAvLRZ1JZfkrLTBmWUyMs81yTfTumvx5OwjDA==

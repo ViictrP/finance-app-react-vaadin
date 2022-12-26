@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vaadin/button": "^23.3.2",
     "@vaadin/email-field": "^23.3.2",
     "@vaadin/icon": "^23.3.2",
     "@vaadin/icons": "^23.3.2",
