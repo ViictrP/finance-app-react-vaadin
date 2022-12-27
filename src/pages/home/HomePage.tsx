@@ -21,13 +21,14 @@ const HomePage = () => {
               placeholder="password"
               onChange={(value) => console.log(value)}
             ></InputPassword>
-            <p className="my-4">Esqueceu a senha?</p>
+            <a href="#" className="my-4 text-start text-blue-500">Esqueceu a senha?</a>
           </div>
           <Button theme="primary">
             Send
             <Icon icon="vaadin:arrow-right" slot="suffix"></Icon>
           </Button>
-          <p className="text-start mt-4">Novo por aqui? Crie sua conta!</p>
+          <p className="text-start mt-4">Novo por aqui? <a href="#" className="text-blue-500">Crie sua conta!</a></p>
+        <p className="mt-20 text-gray-300">Finance App v1.0.0</p>
         </div>
       </div>
     </div>
