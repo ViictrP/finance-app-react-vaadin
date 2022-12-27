@@ -14,12 +14,12 @@ const HomePage = () => {
           <div className="flex flex-col mt-10 text-start">
             <InputEmail
               showClear
-              placeholder="username@email.com"
+              placeholder="usuario@email.com"
               onChange={(value) => console.log(value)}
             ></InputEmail>
             <InputPassword
               showClear
-              placeholder="password"
+              placeholder="senha"
               onChange={(value) => console.log(value)}
             ></InputPassword>
             <a href="#" className="my-4 text-start text-blue-500">Esqueceu a senha?</a>
