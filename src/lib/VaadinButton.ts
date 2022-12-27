@@ -15,4 +15,5 @@ export default interface VaadinButton {
   onClick?: () => void;
   children?: ReactNode;
   disabled?: boolean;
+  className?: string;
 }
