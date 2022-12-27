@@ -6,8 +6,9 @@ const HomePage = () => {
     <div className="app-container">
       <div className="home-container">
         <div className="card">
+          <p className="mt-4 font-black text-2xl">Finance <span className="text-green-500">App</span></p>
           <div className="mt-10 px-4 flex flex-col gap-4">
-            <p className="text-3xl">Bem vindo de volta!</p>
+            <p className="text-3xl">Bem vindo!</p>
             <p>digite seu e-mail e senha para acessar a plataforma.</p>
           </div>
           <div className="flex flex-col mt-10 text-start">
@@ -24,11 +25,11 @@ const HomePage = () => {
             <a href="#" className="my-4 text-start text-blue-500">Esqueceu a senha?</a>
           </div>
           <Button theme="primary">
-            Send
+            Entrar
             <Icon icon="vaadin:arrow-right" slot="suffix"></Icon>
           </Button>
           <p className="text-start mt-4">Novo por aqui? <a href="#" className="text-blue-500">Crie sua conta!</a></p>
-        <p className="mt-20 text-gray-300">Finance App v1.0.0</p>
+          <p className="mt-20 text-gray-300">Finance App v1.0.0</p>
         </div>
       </div>
     </div>
